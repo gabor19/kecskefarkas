@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+main{
+    display: grid;
+    grid-template-areas: "h h h"
+                           "ab sc aj"
+                           "f f f";
+    margin: auto;
+    width: 800px;
+    grid-template-columns: 200px 400px 200px;
+}
+header{
+    grid-area: h;
+}
+.jobb{
+    grid-area: sj;
+}
+.ball{
+    grid-area: ab;
+}
+footer{
+    grid-area: f;
+}
+section{
+    grid-area: sc;
+    background-image: url("kepek/csonak.jpg");
+}
+img{
+    width: 100px;
+}
